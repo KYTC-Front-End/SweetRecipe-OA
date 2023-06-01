@@ -1120,3 +1120,271 @@ line-height: 2rem;
 }
 /* Leave a Reply end*/
 
+ /*******header style start********/
+ .header-container{
+  display: flex;
+  flex-direction: column;
+}
+.header-top{
+height: 50px;
+color:#f2f2f2 ;
+display: flex;
+justify-content: space-around;
+align-items: center;
+background-color: #6F3A58;
+color: #f8f8f8;
+font-size: 15px;
+font-weight: 400;
+line-height: 24px;
+cursor: pointer;
+vertical-align: middle;
+font-family: "Poppins",sans-serif;
+letter-spacing: 0.5px;
+}
+
+.user-info{
+color: #f8f8f8;
+display: flex;
+justify-content: space-around;
+gap: 20px;
+}
+.header-bottom{
+height: 92px;
+  display: flex;
+  justify-content: space-between;
+  gap: 150px;
+  width: 97%;
+}
+.header-left{
+  
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3%;
+}
+.header-top-logo{
+  font-family: 'Great Vibes', cursive;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+ 
+}
+.logo{
+  padding-left: 7px;
+}
+.header-right{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  gap: 20px;
+  width: 50%;
+}
+.nav-item-link{
+  text-decoration: none;
+  color: #000;
+  font-size: 22px;
+  line-height: 1.4;
+  font-weight: 400;
+  font-family: Poppins, sans-serif;
+  font-family: 'Marcellus', serif;
+}
+.nav-item-link:hover{
+color: #6F3A58;
+font-weight: 600;
+}
+.header-icon{
+width: 15%;
+  font-size: 26px;
+  color: #6F3A58;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+}
+/*******header style end********/
+
+
+/*********submit-Contents start style******/
+.submit-Contents-container{
+  width: 100%;
+  height: 150vh;
+  /* background-color: #6f3a5813; */
+  background-image: url(./top-view-collection-isolated-breakfast-muffins.jpg);
+  background-size: cover;
+
+}
+.submit-recipe-name{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 10%;
+  height: 7vh;
+}
+.add-recipe-name{
+  width: 20%; 
+
+}
+.add-recipe-name:hover{
+  background-color: #ddd; 
+}
+
+.button-add-image{
+  width: 10%;
+  height: 5vh;
+  border: 2px solid #6F3A58;
+  color: #000000;
+  font-size: 0.3;
+}
+.button-add-image:hover{
+  background: none;
+  background-color:#6F3A58;
+  color: #f0f0f0;
+}
+#icon-camera:hover{
+  color: #f0f0f0;
+}
+.recipe-name-title{
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding-left: 1%;
+  color: #6F3A58;
+}
+
+.submit-ingredients{
+  display: flex;
+  flex-direction: row;
+  gap: 11%; 
+  padding-top: 3%;
+}
+
+.submit-ingredients-title{
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding-left: 1%;
+  padding-top: 1%;
+  color: #6F3A58;
+}
+
+table {
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding-left: 1%;
+  padding-top: 1%;
+  border-collapse: collapse;
+  width: 30%
+
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.supmit-input{
+ border: none;
+ width: 100%;
+ height: 5vh;
+}
+.supmit-count{
+  border: none;
+  width: 30%;
+ 
+  height: 5vh;
+}
+
+.button-add-ingredients{
+  width: 10%;
+  height: 5vh;
+  border: 2px solid #6F3A58;
+  font-size: 0.2;
+}
+.button-add-ingredients:hover{
+  width: 12%;
+  height: 5vh;
+  background-color: #6F3A58;
+  border: 2px solid #ffffff;
+  color: #f0f0f0;
+}
+.button-add{
+  padding-top: 2%;
+  padding-left: 21%;
+}
+
+.submit-Details{
+  display: flex;
+  flex-direction: row;
+  gap: 14%;
+  padding-top: 3%;
+}
+
+.submit-Details-title{
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding-left: 1%;
+  padding-top: 1%;
+  color: #6F3A58;
+}
+.table {  
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding-left: 1%;
+  padding-top: 1%;
+  border-collapse: collapse;
+  width: 30%
+}
+.step-title{
+  font-size: 1.2rem;
+}
+.hr{
+  width: 60%;
+}
+
+/*********submit-Contents end style******/
+
+
+
+
+
+
+
+/*******footer style start********/
+.footer-container{
+  width: 100%;
+  background-color: #6F3A58;
+  color: #f8f8f8;
+  display: flex;
+  flex-direction: column;
+  background-position: center;
+  height: 30vh;
+  margin-top: 100px;
+}
+.footer-top{
+  height: 90%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10%;
+}
+
+.footer-items{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 100px;
+
+}
+.footer-items a{
+  text-decoration: none;
+  color: #f8f8f8;
+}
+.footer-bottom{
+  height: 20%; 
+}
+
+/*******footer style end********/
