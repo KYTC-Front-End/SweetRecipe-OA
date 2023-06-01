@@ -661,3 +661,462 @@
     background-color: #ddd;
     border-radius: 5px;
   }
+
+
+
+
+
+
+
+
+
+
+
+  
+/* title and image recipe start  */
+.ricipe-container-details{
+  display: grid;
+  grid-template-columns: 80% 20%;
+}
+.title-recipe-left{
+   font-family: 'Marcellus', serif;
+   font-size: 2rem;
+   padding-left: 6%;
+   color: #6F3A58;
+}
+.title-recipe-right{
+   display: flex;
+   justify-content: center;
+   gap: 25px;
+   font-size: 1.5rem;
+}
+.image-recipe-container{
+   display: grid;
+   grid-template-columns: 60% 40%;
+   padding-left: 6%;
+   width: 100%;
+   height: 40vh;
+}
+
+.image-right{
+  width: 100%;
+  height: 40vh;
+  background-image: url(/caak.jpg.jpg);
+  background-size: cover;
+}
+.image-left{
+   width: 100%;
+   display: grid;
+   grid-template-rows: auto auto auto;
+}
+/* title and image recipe end  */
+
+/*  line under image start  */
+.line-under-img-recipe{
+   display: flex;
+   -webkit-box-align: center;
+   align-items: center;
+   -webkit-box-pack: center;
+   justify-content: center;
+   margin: 0 -18px 25px;
+}
+
+.left-line{
+   width: 100%;
+   height: 7px;
+   border-top: 1px solid #eae9e7;
+   border-bottom: 1px solid #eae9e7;
+   margin: 0 18px;
+}
+.recipe-time{
+   -webkit-box-flex: 0;
+   flex: 0 0 auto;
+   height: 24px;
+   line-height: 24px;
+   margin: 0 10px;
+}
+.icon-time{
+   font-size: 14px;
+
+}
+.recipe-like{
+   -webkit-box-flex: 0;
+   flex: 0 0 auto;
+   height: 24px;
+   line-height: 24px;
+   margin: 0 10px;
+}
+.icon-like{
+   font-size: 14px;    
+}
+.right-line{
+   width: 100%;
+   height: 7px;
+   border-top: 1px solid #eae9e7;
+   border-bottom: 1px solid #eae9e7;
+   margin: 0 18px;
+}
+/*  line under image end  */
+
+
+/* recipe descreption start  */
+.recipe-descreption-container{ 
+   height: 45vh;
+   display: flex;
+   flex-direction: column;
+
+}
+.title-descreption{
+   padding-left: 6%;
+   font-family: 'Lato', sans-serif;
+   color: #6F3A58;
+   font-weight: bold;
+   font-size: 1.5rem;
+   height: 4vh;
+}
+.rate-recipe{
+   padding-left: 6%;
+   height: 3vh;
+   padding-top: 1%;
+}
+
+.para-descreption{
+   padding-left: 6%;
+   width: 70%;
+   height: 3vh;
+   font-family: 'Lato', sans-serif;
+   font-size: 1.5rem;
+   line-height: 3rem;
+   padding-top: 1%;
+}
+/* recipe descreptio end  */
+
+/* hr theme start */
+.hr-theme-slash-2 {
+   display: flex;
+}
+.hr-line {
+   width: 100%;
+   position: relative;
+   margin: 15px;
+   border-bottom: 1px solid #888888;
+}
+.hr-icon{
+   position: relative;
+   top: 3px;
+}
+/* hr theme end */
+
+
+/* recipe Ingredients start */
+.ingredients-container{
+   width: 100%;
+   height: 55vh;
+   align-items: center;
+}
+
+.ingredients-title{
+   padding-left: 6%;
+   font-family: 'Lato', sans-serif;
+   color: #6F3A58;
+   font-weight: bold;
+   font-size: 2rem;
+   height: 4vw;
+}
+.ingredients-ol{
+   width: 100%;
+   height: 33vh;
+   list-style: circle inside;
+   padding-left: 6%;
+   width: 70%;
+   height: 25vh;
+   font-family: 'Lato', sans-serif;
+   font-size: 1.5rem;
+   line-height: 4rem;
+}
+ /* recipe Ingredients end */
+
+
+  /* hr theme start */
+.hr-theme-slash-2 {
+   display: flex;
+}
+.hr-line {
+   width: 100%;
+   position: relative;
+   margin: 15px;
+   border-bottom: 1px solid #888888;
+}
+.hr-icon{
+   position: relative;
+   top: 3px;
+}
+/* hr theme end */
+
+
+/* directions start */
+.directions-container{
+   width: 100%;
+   height: 55vw;
+   display: flex;
+   flex-direction: column;
+}
+.directions-title{
+   padding-left: 6%;
+   font-family: 'Lato', sans-serif;
+   color: #6F3A58;
+   font-weight: bold;
+   font-size: 2rem;
+   height: 5vw;
+}
+.step-one{
+   width: 100%;
+   height: 20vh;
+}
+.title-step-one{
+   width: 100%;
+   display: flex;
+   padding-left: 6%;
+   font-family: 'Lato', sans-serif;
+   color: #302027;
+   font-weight: bold;
+   font-size: 1.5rem;
+   height: 7vh;
+}
+#icon-step{
+   width: 30px;
+}
+.para-step-one{
+   padding-left: 8%;
+   width: 70%;
+   /* height: 8vh; */
+   font-family: 'Lato', sans-serif;
+   font-size: 1.2rem;
+}
+
+.step-two{
+   width: 100%;
+   height: 22vh;
+}
+.title-step-two{
+   width: 100%;
+   display: flex;
+   padding-left: 5%;
+   font-family: 'Lato', sans-serif;
+   color: #302027;
+   font-weight: bold;
+   font-size: 1.5rem;
+   height: 7vh;
+}
+#icon-step{
+   width: 30px;
+}
+.para-step-two{
+   padding-left: 8%;
+   width: 70%;
+   /* height: 10vh; */
+   font-family: 'Lato', sans-serif;
+   font-size: 1.2rem;
+}
+
+.step-three{
+   width: 100%;
+   height: 35vh;
+}
+.title-step-three{
+   width: 100%;
+   display: flex;
+   padding-left: 5%;
+   font-family: 'Lato', sans-serif;
+   color: #302027;
+   font-weight: bold;
+   font-size: 1.5rem;
+   height: 7vh;
+}
+#icon-step{
+   width: 30px;
+}
+.para-step-three{
+   padding-left: 8%;
+   width: 70%;
+   /* height: 30vh; */
+   font-family: 'Lato', sans-serif;
+   font-size: 1.2rem;
+   line-height: 2rem;
+}
+
+.step-four{
+   width: 100%;
+   height: 47vh;
+}
+.title-step-four{
+   width: 100%;
+   display: flex;
+   padding-left: 5%;
+   font-family: 'Lato', sans-serif;
+   color: #302027;
+   font-weight: bold;
+   font-size: 1.5rem;
+   height: 7vh;
+}
+#icon-step{
+   width: 30px;
+}
+.para-step-four{
+   padding-left: 8%;
+   width: 70%;
+   /* height: 15vh; */
+   font-family: 'Lato', sans-serif;
+   font-size: 1.2rem;
+   line-height: 2rem;
+}
+/* directions end */
+
+
+/* hr theme start */
+  .hr-theme-slash-2 {
+   display: flex;
+}
+.hr-line {
+   width: 100%;
+   position: relative;
+   margin: 15px;
+   border-bottom: 1px solid #888888;
+}
+.hr-icon{
+   position: relative;
+   top: 3px;
+}
+/* hr theme end */
+
+
+/* Leave a Reply start*/
+.Reply-container{
+   width: 100%;
+   height: 13vw;
+   padding-top: 2vh;
+}
+.title-Reply{
+   padding-left: 6%;
+   font-family: 'Lato', sans-serif;
+   color: #6F3A58;
+   font-weight: bold;
+   font-size: 2rem;
+   height: 4vw;
+}
+.para-Reply{
+   padding-left: 7%;
+   width: 70%;
+   height: 8vh;
+   font-family: 'Lato', sans-serif;
+   font-size: 1.2rem;
+   line-height: 2rem;
+}
+.rate-Reply{
+   padding-left: 7%;
+   height: 3vh;
+}
+.input-container{
+width: 100%;
+height: 50vh;
+align-items: center;
+}
+.comment-input{
+height: 27vh;  
+}
+.comment{
+   width: 90% ;
+   height: 25vh;
+   border: 1px solid rgb(133, 132, 132);
+   margin-top: 20px;
+   margin-left: 20px;
+}
+.name-input{
+   width: 100%;
+   display: grid;
+   grid-template-columns: 40% 40%;
+   gap: 20%;
+}
+.input-name{
+  width: 100%;
+  height: 20vh;
+}
+
+.rate-title{
+width: 70%;
+height: 5vh;
+font-family: 'Lato', sans-serif;
+font-size: 1.2rem;
+line-height: 2rem;
+}
+
+.text-area-form{
+   padding-left: 7%;
+   width: 100%;
+   height: 150px;
+   
+}
+
+.text-area{
+   width: 50%;
+   height: 20vh;
+   border: 2px solid #ccc;
+   border-radius: 4px;
+   font-size: 16px;
+}
+
+.name-form{
+  width: 50%;
+  height: 10vh;
+  padding-left: 7%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 8%;
+}
+
+.first-name{
+   height: 7vh;
+   border: 2px solid #ccc;
+}
+.email{
+   height: 7vh;
+   border: 2px solid #ccc;
+}
+
+.Website-comment-form{
+   padding-left: 7%;
+   width: 100%;
+}
+
+.Website-comment{
+   width: 50%;
+   height: 7vh;
+   border: 2px solid #ccc;
+   border-radius: 4px;
+   font-size: 16px;
+}
+.checkbox-comment-form{
+   padding-left: 7%;
+   padding-top: 2%;
+   width: 50%;
+}
+
+.button-comment-form{
+   padding-left: 7%;
+   padding-top: 2%;
+}
+.button-comment{
+   width: 10%;
+   height: 5vh;
+   border: 2px solid #6F3A58;
+   color: #000000;
+   font-size: 0.3;
+  
+}
+.button-comment:hover{
+   background: none;
+   background-color:#6F3A58;
+   color: #f0f0f0;
+}
+/* Leave a Reply end*/
+
