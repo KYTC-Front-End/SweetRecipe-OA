@@ -102,6 +102,77 @@
     .footer-bottom {
       justify-content: center;
     }
+
+
+
+
+
+
+
+         /* recipe descreption start  */
+    .ricipe-container-details{
+      width: 100%;
+             display: grid;
+             grid-template-columns: 60% 20%;
+         }
+         .title-recipe-left{
+             font-size: 1.2rem;
+             height: 2vh;
+         }
+         .title-recipe-right{
+             height: 2vh;
+             font-size: 1.2rem;
+         }
+     
+         .recipe-descreption-container{
+             height: 55vh;
+         }
+         .title-descreption{
+             height: 5vh;
+         }
+     
+         /* recipe Ingredients start */
+         .ingredients-title{
+             height: 4vh;
+         }
+         .ingredients-ol{
+             width: 80%;
+             font-size: 1.5rem;
+         }
+         .ingredients-container{
+             height: 50vh;
+         }
+     
+     
+     
+       /* recipe descreption start  */
+         .directions-container{
+             height: 110vh;
+         }
+         .directions-title{
+             height: 5vh;
+         }
+         
+         .title-step-one{
+             height: 2vh;
+         }
+         .title-step-two{
+             height: 2vh;
+         }
+         .title-step-three{
+             height: 2vh;
+         }
+         .title-step-four{
+             height: 2vh;
+         }
+     
+
+
+
+
+
+
+
   }
   @media (min-width: 600px) and (max-width: 900px) {
     .header-container {
